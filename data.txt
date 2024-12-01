@@ -92,141 +92,141 @@ tee: Read from standard input and write to standard output and files simultaneou
 
 ls: List directory contents.
 
-bash
-Copy code
+
+
 ls
 ls -l
 ls -a
 cd: Change the current directory.
 
-bash
-Copy code
+
+
 cd directory_name
 cd ..
 pwd: Print the current working directory.
 
-bash
-Copy code
+
+
 pwd
 mkdir: Create a new directory.
 
 arduino
-Copy code
+
 mkdir new_directory
 rmdir: Remove a directory.
 
 arduino
-Copy code
+
 rmdir directory_to_remove
 cp: Copy files and directories.
 
-bash
-Copy code
+
+
 cp source_file destination_directory
 cp -r source_directory destination_directory
 mv: Move or rename files and directories.
 
-bash
-Copy code
+
+
 mv old_filename new_filename
 mv filename directory
 rm: Remove files or directories.
 
-bash
-Copy code
+
+
 rm filename
 rm -r directory
 touch: Create an empty file or update the timestamp of an existing file.
 
-bash
-Copy code
+
+
 touch filename
 cat: Concatenate and display the contents of files.
 
-bash
-Copy code
+
+
 cat filename
 more or less: View the contents of a file one screen at a time.
 
-Copy code
+
 more filename
 less filename
 head: Display the beginning of a file.
 
-bash
-Copy code
+
+
 head filename
 head -n 10 filename
 tail: Display the end of a file.
 
-bash
-Copy code
+
+
 tail filename
 tail -n 10 filename
 grep: Search for patterns in files.
 
 perl
-Copy code
+
 grep pattern filename
 find: Search for files and directories in a directory hierarchy.
 
 arduino
-Copy code
+
 find directory -name filename
 chmod: Change the permissions of files and directories.
 
-bash
-Copy code
+
+
 chmod permissions filename
 chown: Change the owner of files and directories.
 
 sql
-Copy code
+
 chown user:group filename
 man: Display the manual pages for commands.
 
-Copy code
+
 man command_name
 sudo: Execute a command with superuser privileges.
 
-bash
-Copy code
+
+
 sudo command
 df: Display disk space usage.
 
-bash
-Copy code
+
+
 df -h
 du: Display disk usage of files and directories.
 
-bash
-Copy code
+
+
 du -h
 tar: Archive files.
 
-Copy code
+
 tar -cvf archive.tar files_to_archive
 gzip or gunzip: Compress or decompress files.
 
-Copy code
+
 gzip filename
 gunzip filename.gz
 ssh: Secure Shell, used for remote login to another computer.
 
 css
-Copy code
+
 ssh username@hostname
 scp: Securely copy files between hosts on a network.
 
 ruby
-Copy code
+
 scp file username@hostname:/path/to/destination
 
 
 
 View a file's contents: You can simply pass the filename as an argument to more to view its contents:
 
-Copy code
+
 more filename.txt
 Scroll through the file: Once you've opened a file with more, you can press the Enter key to scroll down one line at a time, or you can press the spacebar to scroll down one screen at a time.
 
@@ -236,14 +236,14 @@ Quit: To exit more, press q.
 
 View file with line numbers: You can use the -n option to display line numbers along with the file contents:
 
-Copy code
+
 more -n filename.txt
 View multiple files: You can pass multiple filenames as arguments to more to view the contents of multiple files sequentially:
 
-Copy code
+
 more file1.txt file2.txt
 View compressed files: You can also use more to view the contents of compressed files (e.g., gzip-compressed files) by piping the output of gzip -d (or gunzip) into more:
 
 r
-Copy code
+
 gzip -d -c filename.gz | more

@@ -1,7 +1,7 @@
 from docx import Document
 
 # Path to the input .odd file
-file_path = "LinuxCommands.txt"  # Replace with the path to your .odd file
+# file_path = "LinuxCommands.txt"  # Replace with the path to your .odd file
 output_docx = "output.docx"  # Path for the output Word document
 
 try:
