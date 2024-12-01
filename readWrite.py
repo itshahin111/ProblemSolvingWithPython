@@ -1,6 +1,7 @@
 # Path to the input .txt file
-file_path = "data.txt"  # Replace with the path to your .txt file
-output_html = "output.html"  # Path for the output HTML file
+file_path = "Python/LinuxCommands.txt"  # Replace with the path to your .txt file
+
+output_html = "/output.html"  # Path for the output HTML file
 
 try:
     # Read the .txt file
@@ -66,6 +67,6 @@ try:
     print(f"HTML table successfully written to {output_html}")
 
 except FileNotFoundError:
-    print("The file does not exist.")
+    print(f"Error: File '{file_path}' not found.")
 except Exception as e:
-    print(f"An error occurred: {e}")
+    print(f"An error occurred: {str(e)}")
