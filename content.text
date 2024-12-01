@@ -1,0 +1,249 @@
+apt-get: Advanced Package Tool, used for package management (installing, updating, removing software packages).
+
+apt: A newer command-line interface for the APT package management system, introduced in Debian 8.
+
+dpkg: Debian Package Manager, used for low-level package management (installing, querying, and removing individual .deb packages).
+
+apt-cache: APT package management utility for querying information about available packages.
+
+aptitude: An alternative text-based interface for package management, providing interactive package management capabilities.
+
+ls: List directory contents.
+
+cd: Change the current directory.
+
+pwd: Print the current working directory.
+
+mkdir: Create a new directory.
+
+rmdir: Remove a directory.
+
+cp: Copy files and directories.
+
+mv: Move or rename files and directories.
+
+rm: Remove files or directories.
+
+touch: Create an empty file or update the timestamp of an existing file.
+
+cat: Concatenate and display the contents of files.
+
+more or less: View the contents of a file one screen at a time.
+
+head: Display the beginning of a file.
+
+tail: Display the end of a file.
+
+grep: Search for patterns in files.
+
+find: Search for files and directories in a directory hierarchy.
+
+chmod: Change the permissions of files and directories.
+
+chown: Change the owner of files and directories.
+
+man: Display the manual pages for commands.
+
+sudo: Execute a command with superuser privileges.
+
+su: Switch user or become another user.
+
+df: Display disk space usage.
+
+du: Display disk usage of files and directories.
+
+tar: Archive files.
+
+gzip or gunzip: Compress or decompress files.
+
+ssh: Secure Shell, used for remote login to another computer.
+
+scp: Securely copy files between hosts on a network.
+
+wget: Retrieve files from the internet using HTTP, HTTPS, or FTP.
+
+curl: Transfer data from or to a server.
+
+ps: Display information about active processes.
+
+kill: Terminate processes by PID (Process ID) or name.
+
+top: Display dynamic real-time information about running processes.
+
+free: Display amount of free and used memory in the system.
+
+uname: Print system information.
+
+ifconfig or ip: Display or configure network interfaces.
+
+ping: Send ICMP Echo Request to network hosts.
+
+traceroute: Print the route that packets take to reach a network host.
+
+nc: Netcat, a versatile networking utility for reading from and writing to network connections.
+
+awk: A programming language for pattern scanning and text processing.
+
+sed: Stream Editor for filtering and transforming text.
+
+tee: Read from standard input and write to standard output and files simultaneously.
+
+
+
+ls: List directory contents.
+
+bash
+Copy code
+ls
+ls -l
+ls -a
+cd: Change the current directory.
+
+bash
+Copy code
+cd directory_name
+cd ..
+pwd: Print the current working directory.
+
+bash
+Copy code
+pwd
+mkdir: Create a new directory.
+
+arduino
+Copy code
+mkdir new_directory
+rmdir: Remove a directory.
+
+arduino
+Copy code
+rmdir directory_to_remove
+cp: Copy files and directories.
+
+bash
+Copy code
+cp source_file destination_directory
+cp -r source_directory destination_directory
+mv: Move or rename files and directories.
+
+bash
+Copy code
+mv old_filename new_filename
+mv filename directory
+rm: Remove files or directories.
+
+bash
+Copy code
+rm filename
+rm -r directory
+touch: Create an empty file or update the timestamp of an existing file.
+
+bash
+Copy code
+touch filename
+cat: Concatenate and display the contents of files.
+
+bash
+Copy code
+cat filename
+more or less: View the contents of a file one screen at a time.
+
+Copy code
+more filename
+less filename
+head: Display the beginning of a file.
+
+bash
+Copy code
+head filename
+head -n 10 filename
+tail: Display the end of a file.
+
+bash
+Copy code
+tail filename
+tail -n 10 filename
+grep: Search for patterns in files.
+
+perl
+Copy code
+grep pattern filename
+find: Search for files and directories in a directory hierarchy.
+
+arduino
+Copy code
+find directory -name filename
+chmod: Change the permissions of files and directories.
+
+bash
+Copy code
+chmod permissions filename
+chown: Change the owner of files and directories.
+
+sql
+Copy code
+chown user:group filename
+man: Display the manual pages for commands.
+
+Copy code
+man command_name
+sudo: Execute a command with superuser privileges.
+
+bash
+Copy code
+sudo command
+df: Display disk space usage.
+
+bash
+Copy code
+df -h
+du: Display disk usage of files and directories.
+
+bash
+Copy code
+du -h
+tar: Archive files.
+
+Copy code
+tar -cvf archive.tar files_to_archive
+gzip or gunzip: Compress or decompress files.
+
+Copy code
+gzip filename
+gunzip filename.gz
+ssh: Secure Shell, used for remote login to another computer.
+
+css
+Copy code
+ssh username@hostname
+scp: Securely copy files between hosts on a network.
+
+ruby
+Copy code
+scp file username@hostname:/path/to/destination
+
+
+
+View a file's contents: You can simply pass the filename as an argument to more to view its contents:
+
+Copy code
+more filename.txt
+Scroll through the file: Once you've opened a file with more, you can press the Enter key to scroll down one line at a time, or you can press the spacebar to scroll down one screen at a time.
+
+Search for text: You can search for specific text within the file by typing / followed by the text you want to search for and then pressing Enter. For example, to search for the word "example", you would type /example and press Enter. To find the next occurrence, press n.
+
+Quit: To exit more, press q.
+
+View file with line numbers: You can use the -n option to display line numbers along with the file contents:
+
+Copy code
+more -n filename.txt
+View multiple files: You can pass multiple filenames as arguments to more to view the contents of multiple files sequentially:
+
+Copy code
+more file1.txt file2.txt
+View compressed files: You can also use more to view the contents of compressed files (e.g., gzip-compressed files) by piping the output of gzip -d (or gunzip) into more:
+
+r
+Copy code
+gzip -d -c filename.gz | more

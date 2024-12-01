@@ -1,0 +1,90 @@
+apt-get: Advanced Package Tool, used for package management (installing, updating, removing software packages).
+
+apt: A newer command-line interface for the APT package management system, introduced in Debian 8.
+
+dpkg: Debian Package Manager, used for low-level package management (installing, querying, and removing individual .deb packages).
+
+apt-cache: APT package management utility for querying information about available packages.
+
+aptitude: An alternative text-based interface for package management, providing interactive package management capabilities.
+
+ls: List directory contents.
+
+cd: Change the current directory.
+
+pwd: Print the current working directory.
+
+mkdir: Create a new directory.
+
+rmdir: Remove a directory.
+
+cp: Copy files and directories.
+
+mv: Move or rename files and directories.
+
+rm: Remove files or directories.
+
+touch: Create an empty file or update the timestamp of an existing file.
+
+cat: Concatenate and display the contents of files.
+
+more or less: View the contents of a file one screen at a time.
+
+head: Display the beginning of a file.
+
+tail: Display the end of a file.
+
+grep: Search for patterns in files.
+
+find: Search for files and directories in a directory hierarchy.
+
+chmod: Change the permissions of files and directories.
+
+chown: Change the owner of files and directories.
+
+man: Display the manual pages for commands.
+
+sudo: Execute a command with superuser privileges.
+
+su: Switch user or become another user.
+
+df: Display disk space usage.
+
+du: Display disk usage of files and directories.
+
+tar: Archive files.
+
+gzip or gunzip: Compress or decompress files.
+
+ssh: Secure Shell, used for remote login to another computer.
+
+scp: Securely copy files between hosts on a network.
+
+wget: Retrieve files from the internet using HTTP, HTTPS, or FTP.
+
+curl: Transfer data from or to a server.
+
+ps: Display information about active processes.
+
+kill: Terminate processes by PID (Process ID) or name.
+
+top: Display dynamic real-time information about running processes.
+
+free: Display amount of free and used memory in the system.
+
+uname: Print system information.
+
+ifconfig or ip: Display or configure network interfaces.
+
+ping: Send ICMP Echo Request to network hosts.
+
+traceroute: Print the route that packets take to reach a network host.
+
+nc: Netcat, a versatile networking utility for reading from and writing to network connections.
+
+awk: A programming language for pattern scanning and text processing.
+
+sed: Stream Editor for filtering and transforming text.
+
+tee: Read from standard input and write to standard output and files simultaneously.
+
